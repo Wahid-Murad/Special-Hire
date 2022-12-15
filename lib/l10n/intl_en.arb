@@ -1,7 +1,16 @@
 {
    "quotation_add": "Quotation Add",
    "contact_information": "Contact Information",
+   "journey_information": "Journey Information",
    "add": "Add",
    "journey_information" : "Journey Information",
-   "fleet_details" : "Fleet Details"
+   "fleet_details": "Fleet Details",
+   "save": "Save",
+   "company": "Company", 
+   "name": "Name", 
+   "phone": "Phone", 
+   "email": "Email", 
+   "address": "Address" ,
+   "remarks": "Remarks",
+   "select_district": "Select district"
 }
