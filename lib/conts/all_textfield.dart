@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AllTextField extends StatefulWidget {
-  AllTextField({Key? key, this.hintText}) : super(key: key);
+  AllTextField({Key? key, this.hintText, this.textInputType}) : super(key: key);
   String? hintText;
+  TextInputType? textInputType;
+
   TextEditingController? textEditingController;
   @override
   State<AllTextField> createState() => _AllTextFieldState();
@@ -27,8 +29,8 @@ class _AllTextFieldState extends State<AllTextField> {
       ),
       height: 50,
       child: TextField(
-        keyboardType: TextInputType.text,
-        style: GoogleFonts.roboto(),
+        keyboardType: widget.textInputType,
+        style: GoogleFonts.roboto(fontSize: 20),
         decoration: InputDecoration(
           hintText: widget.hintText,
           border: InputBorder.none,

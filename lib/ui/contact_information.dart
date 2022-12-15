@@ -38,6 +38,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.company,
+                    textInputType: TextInputType.text,
                   ),
                 ),
 
@@ -50,6 +51,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.name,
+                    textInputType: TextInputType.name,
                   ),
                 ),
 
@@ -62,6 +64,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.phone,
+                    textInputType: TextInputType.phone,
                   ),
                 ),
 
@@ -74,6 +77,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.email,
+                    textInputType: TextInputType.emailAddress,
                   ),
                 ),
 
@@ -86,6 +90,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.address,
+                    textInputType: TextInputType.streetAddress,
                   ),
                 ),
 
@@ -98,6 +103,7 @@ class _ContactInformationState extends State<ContactInformation> {
                   padding: const EdgeInsets.only(top: 10, bottom: 10),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.remarks,
+                    textInputType: TextInputType.text,
                   ),
                 ),
                 // validator: (value) {

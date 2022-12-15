@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:specialhire/conts/button.dart';
 import 'package:specialhire/conts/styles.dart';
 import 'package:specialhire/ui/contact_information.dart';
 import 'package:specialhire/ui/journey_information.dart';
@@ -164,23 +165,7 @@ class _QuotationAddState extends State<QuotationAdd> {
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 20, right: 20, top: 40),
-                child: Container(
-                  width: double.infinity,
-                  height: 50,
-                  decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Center(
-                    child: Text(
-                      AppLocalizations.of(context)!.save,
-                      style: buttonTextStyle,
-                    ),
-                  ),
-                ),
-              ),
+              Button(),
             ],
           ),
         ),
