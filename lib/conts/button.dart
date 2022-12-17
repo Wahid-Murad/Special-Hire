@@ -15,7 +15,7 @@ class _ButtonState extends State<Button> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 20, right: 20, top: 40),
+      padding: const EdgeInsets.only(left: 20, right: 20, top: 40, bottom: 40),
       child: Container(
         width: double.infinity,
         height: 50,

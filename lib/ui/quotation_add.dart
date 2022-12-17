@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:specialhire/conts/button.dart';
 import 'package:specialhire/conts/styles.dart';
 import 'package:specialhire/ui/contact_information.dart';
+import 'package:specialhire/ui/fleet_details.dart';
 import 'package:specialhire/ui/journey_information.dart';
 
 class QuotationAdd extends StatefulWidget {
@@ -149,8 +150,7 @@ class _QuotationAddState extends State<QuotationAdd> {
                         child: InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) =>
-                                    const JourneyInformation()));
+                                builder: (context) => const FleetDetails()));
                           },
                           child: Center(
                             child: Padding(

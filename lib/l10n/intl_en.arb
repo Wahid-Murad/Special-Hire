@@ -12,5 +12,18 @@
    "email": "Email", 
    "address": "Address" ,
    "remarks": "Remarks",
-   "select_district": "Select district"
+   "select_district": "Select district",
+   "origin": "Origin",
+   "destination": "Destination",
+   "type": "Type",
+   "pickup": "Pick Up",
+   "dropping": "Dropping",
+   "j_date": "J date",
+   "pickup_address": "Pick up address",
+   "dropping_address": "Dropping address",
+   "date": "17-12-2022",
+   "fleet_types": "Fleet types",
+   "makers": "Makers",
+   "select_makers": "Select makers",
+   "seat_temp": "Seat temp" 
 }

@@ -5,7 +5,6 @@ class AllTextField extends StatefulWidget {
   AllTextField({Key? key, this.hintText, this.textInputType}) : super(key: key);
   String? hintText;
   TextInputType? textInputType;
-
   TextEditingController? textEditingController;
   @override
   State<AllTextField> createState() => _AllTextFieldState();
@@ -19,11 +18,11 @@ class _AllTextFieldState extends State<AllTextField> {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(2),
-        boxShadow: [
-          const BoxShadow(
-            color: Colors.black45,
-            blurRadius: 2,
-            offset: Offset(0, 0),
+        boxShadow: const [
+          BoxShadow(
+            color: Colors.black54,
+            blurRadius: 1,
+            offset: Offset(2, 0),
           ),
         ],
       ),

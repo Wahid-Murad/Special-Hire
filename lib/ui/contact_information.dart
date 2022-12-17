@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:specialhire/conts/all_textfield.dart';
+import 'package:specialhire/conts/button.dart';
 import 'package:specialhire/conts/styles.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -100,7 +101,9 @@ class _ContactInformationState extends State<ContactInformation> {
                       style: smalltextStyle),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 10, bottom: 10),
+                  padding: const EdgeInsets.only(
+                    top: 10,
+                  ),
                   child: AllTextField(
                     hintText: AppLocalizations.of(context)!.remarks,
                     textInputType: TextInputType.text,
@@ -121,6 +124,11 @@ class _ContactInformationState extends State<ContactInformation> {
 //     return null;
 //   },
 // ),
+
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 30),
+                  child: Button(),
+                ),
               ],
             ),
           ),
